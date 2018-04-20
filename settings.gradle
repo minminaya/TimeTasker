@@ -1,0 +1,1 @@
+include ':app', ':dashboard', ':calender', ':task', ':notes', ':base', ':common'
