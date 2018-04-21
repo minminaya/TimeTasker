@@ -1,14 +1,18 @@
-apply plugin: 'com.android.application'
+if(isModule.toBoolean()){
+    apply plugin: 'com.android.application'
+}else{
+    apply plugin: 'com.android.library'
+}
 
 android {
     compileSdkVersion versions.complile_sdk
 
     defaultConfig {
-        applicationId "com.minminaya.task"
+//        applicationId "com.minminaya.task"
         minSdkVersion versions.min_sdk
         targetSdkVersion versions.target_sdk
-        versionCode 1
-        versionName "1.0"
+        versionCode versions.task_version_code
+        versionName versions.task_version_name
 
         javaCompileOptions {
             annotationProcessorOptions {
@@ -30,4 +34,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(':base')
+    annotationProcessor dep.arouter.arouter_compiler
 }

@@ -6,8 +6,8 @@ android {
         applicationId "com.minminaya.timetasker"
         minSdkVersion versions.min_sdk
         targetSdkVersion versions.target_sdk
-        versionCode 1
-        versionName "1.0"
+        versionCode versions.dashboard_version_code
+        versionName versions.dashboard_version_name
     }
     buildTypes {
         release {
@@ -19,6 +19,14 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    implementation project(':base')
+
+    if (!isModule.toBoolean()) {
+        //如果不是组件模式，那么集成
+        implementation project(':dashboard')
+        implementation project(':calender')
+        implementation project(':notes')
+        implementation project(':task')
+    }
 }

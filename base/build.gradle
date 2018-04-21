@@ -1,4 +1,3 @@
-
 apply plugin: 'com.android.library'
 
 android {
@@ -22,5 +21,8 @@ dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api dep.support.app_compat
     api 'com.android.support.constraint:constraint-layout:1.1.0'
+    api dep.arouter.arouter_api
 
+
+    api project(':common')
 }
