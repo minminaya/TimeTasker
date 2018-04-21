@@ -17,7 +17,7 @@
  
  ### 1、架构设计
  
- [](/img/app_architecture_design.png)
+ ![](/img/app_architecture_design.png)
  
  
  # 进度
