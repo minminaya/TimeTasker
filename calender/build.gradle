@@ -35,4 +35,5 @@ dependencies {
     implementation project(':base')
 
     annotationProcessor dep.arouter.arouter_compiler
+    annotationProcessor dep.butterknife.butterknife_compiler
 }

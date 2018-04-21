@@ -28,5 +28,6 @@ dependencies {
         implementation project(':calender')
         implementation project(':notes')
         implementation project(':task')
+
     }
 }

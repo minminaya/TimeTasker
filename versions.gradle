@@ -12,6 +12,10 @@ versions.glide = "3.7.0"
 versions.and_permission = "2.0.0-rc4"
 versions.arouter_api = "1.3.1"
 versions.arouter_compiler = "1.1.4"
+versions.hawk = "2.0.1"
+versions.butterknife_api = "8.8.1"
+versions.butterknife_compiler = "8.8.1"
+
 
 //local dependence
 def local_dependences = [:]
@@ -24,16 +28,17 @@ support.design = "com.android.support:design:$versions.support"
 local_dependences.support = support
 
 def retrofit = [:]
-retrofit.retrofit2 = "com.squareup.retrofit2:retrofit:2.2.0$versions.retrofit"
+retrofit.retrofit2 = "com.squareup.retrofit2:retrofit:$versions.retrofit"
 retrofit.retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
 retrofit.retrofit2_adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit"
 local_dependences.retrofit = retrofit
 
 local_dependences.rxandroid = "io.reactivex.rxjava2:rxandroid:$versions.rxandroid"
-local_dependences.rxjava2 = "io.reactivex.rxjava2:rxandroid:$versions.rxjava2"
+local_dependences.rxjava2 = "io.reactivex.rxjava2:rxjava:$versions.rxandroid"
 local_dependences.event_bus = "org.greenrobot:eventbus:$versions.event_bus"
 local_dependences.and_permission = "com.yanzhenjie:permission:$versions.and_permission"
 local_dependences.glide = "com.github.bumptech.glide:glide:$versions.glide"
+local_dependences.hawk = "com.orhanobut:hawk:$versions.hawk"
 
 //gradle version
 local_dependences.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
@@ -42,6 +47,11 @@ def arouter = [:]
 arouter.arouter_api = "com.alibaba:arouter-api:$versions.arouter_api"
 arouter.arouter_compiler = "com.alibaba:arouter-compiler:$versions.arouter_api"
 local_dependences.arouter = arouter
+
+def butterknife = [:]
+butterknife.butterknife_api = "com.jakewharton:butterknife:$versions.butterknife_api"
+butterknife.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butterknife_compiler"
+local_dependences.butterknife = butterknife
 
 //放到全局变量
 ext.dep = local_dependences

@@ -19,10 +19,22 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    api dep.support.app_compat
     api 'com.android.support.constraint:constraint-layout:1.1.0'
-    api dep.arouter.arouter_api
 
+    //suport
+    api dep.support.app_compat
+    api dep.support.cardview
+
+    //rx
+    api dep.rxjava2
+    api dep.rxandroid
+
+    api dep.and_permission
+    api dep.glide
+    api dep.event_bus
+    api dep.arouter.arouter_api
+    api dep.hawk
+    api dep.butterknife.butterknife_api
 
     api project(':common')
 }
