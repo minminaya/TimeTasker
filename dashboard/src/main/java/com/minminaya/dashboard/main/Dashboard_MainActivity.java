@@ -1,9 +1,11 @@
-package com.minminaya.dashboard;
+package com.minminaya.dashboard.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class dashboard_MainActivity extends AppCompatActivity {
+import com.minminaya.dashboard.R;
+
+public class Dashboard_MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

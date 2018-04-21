@@ -1,6 +1,6 @@
-if(isModule.toBoolean()){
+if (isModule.toBoolean()) {
     apply plugin: 'com.android.application'
-}else{
+} else {
     apply plugin: 'com.android.library'
 }
 
@@ -15,7 +15,23 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [ moduleName : project.getName() ]
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            if (isModule.toBoolean()) {
+                //组件模式
+                manifest.srcFile 'src/main/module/AndroidManifest.xml'
+            } else {
+                //集成模式
+                manifest.srcFile 'src/main//AndroidManifest.xml'
+                //去除debug文件夹的文件
+                java {
+                    exclude 'debug/**'
+                }
             }
         }
     }

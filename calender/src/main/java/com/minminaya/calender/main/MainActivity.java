@@ -1,7 +1,9 @@
-package com.minminaya.calender;
+package com.minminaya.calender.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.minminaya.calender.R;
 
 public class MainActivity extends AppCompatActivity {
 
