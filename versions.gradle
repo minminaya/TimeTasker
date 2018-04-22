@@ -18,6 +18,8 @@ versions.butterknife_compiler = "8.8.1"
 versions.rxlifecycle = "2.2.1"
 versions.rxlifecycle_navi = "2.2.1"
 
+versions.AwesomeAndroidUtils = "1.0.4"//minminaya工具类库
+
 
 //local dependence
 def local_dependences = [:]
@@ -43,6 +45,8 @@ local_dependences.event_bus = "org.greenrobot:eventbus:$versions.event_bus"
 local_dependences.and_permission = "com.yanzhenjie:permission:$versions.and_permission"
 local_dependences.glide = "com.github.bumptech.glide:glide:$versions.glide"
 local_dependences.hawk = "com.orhanobut:hawk:$versions.hawk"
+
+local_dependences.AwesomeAndroidUtils = "com.github.minminaya:AwesomeAndroidUtils:$versions.AwesomeAndroidUtils"
 
 //gradle version
 local_dependences.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
