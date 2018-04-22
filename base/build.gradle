@@ -28,6 +28,8 @@ dependencies {
     //rx
     api dep.rxjava2
     api dep.rxandroid
+    api dep.rxlifecycle_navi
+//    api dep.rxlifecycle
 
     api dep.and_permission
     api dep.glide

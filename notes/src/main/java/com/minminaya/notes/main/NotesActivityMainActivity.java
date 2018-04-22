@@ -1,7 +1,9 @@
-package com.minminaya.notes;
+package com.minminaya.notes.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.minminaya.notes.R;
 
 public class NotesActivityMainActivity extends AppCompatActivity {
 

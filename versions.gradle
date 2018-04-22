@@ -15,6 +15,8 @@ versions.arouter_compiler = "1.1.4"
 versions.hawk = "2.0.1"
 versions.butterknife_api = "8.8.1"
 versions.butterknife_compiler = "8.8.1"
+versions.rxlifecycle = "2.2.1"
+versions.rxlifecycle_navi = "2.2.1"
 
 
 //local dependence
@@ -35,6 +37,8 @@ local_dependences.retrofit = retrofit
 
 local_dependences.rxandroid = "io.reactivex.rxjava2:rxandroid:$versions.rxandroid"
 local_dependences.rxjava2 = "io.reactivex.rxjava2:rxjava:$versions.rxandroid"
+local_dependences.rxlifecycle = "ccom.trello.rxlifecycle2:rxlifecycle:$versions.rxlifecycle"
+local_dependences.rxlifecycle_navi = "com.trello.rxlifecycle2:rxlifecycle-navi:$versions.rxlifecycle_navi"
 local_dependences.event_bus = "org.greenrobot:eventbus:$versions.event_bus"
 local_dependences.and_permission = "com.yanzhenjie:permission:$versions.and_permission"
 local_dependences.glide = "com.github.bumptech.glide:glide:$versions.glide"

@@ -4,7 +4,7 @@
 
     <application
         android:theme="@style/AppTheme">
-        <activity android:name=".NotesActivityMainActivity">
+        <activity android:name=".main.NotesActivityMainActivity">
         </activity>
     </application>
 
