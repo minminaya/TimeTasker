@@ -1,1 +1,1 @@
-include ':app', ':dashboard', ':calender', ':task', ':notes', ':base', ':common'
+include ':app', ':dashboard', ':calender', ':task', ':notes', ':base', ':common', ':setting'
