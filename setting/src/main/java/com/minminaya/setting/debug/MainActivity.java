@@ -1,6 +1,5 @@
 package com.minminaya.setting.debug;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -38,11 +37,12 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void excuteOthers_5() {
         BarsHelper.setStatusTransparentAndColor(this, Color.TRANSPARENT, 0.0f);
-        BarsHelper.setNavigationBarColor(this, Color.TRANSPARENT);
+        BarsHelper.setNavBarVisibility(this, false);
     }
 
     @Override
     protected void unBindLogic() {
 
     }
+
 }

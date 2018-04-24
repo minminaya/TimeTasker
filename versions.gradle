@@ -18,7 +18,7 @@ versions.butterknife_compiler = "8.8.1"
 versions.rxlifecycle = "2.2.1"
 versions.rxlifecycle_navi = "2.2.1"
 
-versions.AwesomeAndroidUtils = "v1.0.4"//minminaya工具类库
+versions.AwesomeAndroidUtils = "v1.0.7"//minminaya工具类库
 
 
 //local dependence
