@@ -1,1 +1,2 @@
-include ':app', ':dashboard', ':calender', ':task', ':notes', ':base', ':common', ':setting'
+//include ':app', ':dashboard', ':calender', ':task', ':notes', ':base', ':common', ':setting'
+include ':base', ':common', ':setting'

@@ -37,6 +37,7 @@ dependencies {
     api dep.arouter.arouter_api
     api dep.hawk
     api dep.butterknife.butterknife_api
+    api dep.AwesomeAndroidUtils
 
     api project(':common')
 }

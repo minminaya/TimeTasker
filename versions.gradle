@@ -2,7 +2,7 @@ ext.dep = [:]
 
 //定义各种开源库的版本号到这个集合
 def versions = [:]
-versions.android_gradle_plugin = "3.1.0"
+versions.android_gradle_plugin = "3.1.2"
 versions.support = "27.1.1"
 versions.rxjava2 = "2.1.12"
 versions.rxandroid = "2.0.1"
@@ -18,7 +18,7 @@ versions.butterknife_compiler = "8.8.1"
 versions.rxlifecycle = "2.2.1"
 versions.rxlifecycle_navi = "2.2.1"
 
-versions.AwesomeAndroidUtils = "1.0.4"//minminaya工具类库
+versions.AwesomeAndroidUtils = "v1.0.4"//minminaya工具类库
 
 
 //local dependence

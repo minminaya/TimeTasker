@@ -21,7 +21,7 @@ public abstract class BaseActivity extends NaviAppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(setContentViewLayout_1());
         mUnbinder = ButterKnife.bind(this);
-        initView_2();
+        initView_2(savedInstanceState);
         bindLogic_3();
         setListeners_4();
         excuteOthers_5();
@@ -42,7 +42,7 @@ public abstract class BaseActivity extends NaviAppCompatActivity {
     /**
      * 对各个View的初始化
      */
-    protected abstract void initView_2();
+    protected abstract void initView_2(Bundle savedInstanceState);
 
     /**
      * view的监听器绑定

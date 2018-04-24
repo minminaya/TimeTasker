@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_blue_5d6dbd">#5d6dbd</color>
+    <color name="base_red_d34836">#d34836</color>
+    <color name="base_little_blue_c3c8e0">#c3c8e0</color>
+    <color name="base_grey_dddddd">#dddddd</color>
+    <color name="base_black_4e4e4e">#4e4e4e</color>
+
+</resources>
