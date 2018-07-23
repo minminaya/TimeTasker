@@ -38,6 +38,7 @@ dependencies {
     api dep.hawk
     api dep.butterknife.butterknife_api
     api dep.AwesomeAndroidUtils
+    api dep.mosbymvp
 
     api project(':common')
 }

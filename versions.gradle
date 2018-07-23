@@ -17,6 +17,7 @@ versions.butterknife_api = "8.8.1"
 versions.butterknife_compiler = "8.8.1"
 versions.rxlifecycle = "2.2.1"
 versions.rxlifecycle_navi = "2.2.1"
+versions.mosbymvp = "3.1.0"
 
 versions.AwesomeAndroidUtils = "v1.0.7"//minminaya工具类库
 
@@ -45,6 +46,7 @@ local_dependences.event_bus = "org.greenrobot:eventbus:$versions.event_bus"
 local_dependences.and_permission = "com.yanzhenjie:permission:$versions.and_permission"
 local_dependences.glide = "com.github.bumptech.glide:glide:$versions.glide"
 local_dependences.hawk = "com.orhanobut:hawk:$versions.hawk"
+local_dependences.mosbymvp = "com.hannesdorfmann.mosby3:mvp:$versions.mosbymvp"
 
 local_dependences.AwesomeAndroidUtils = "com.github.minminaya:AwesomeAndroidUtils:$versions.AwesomeAndroidUtils"
 
